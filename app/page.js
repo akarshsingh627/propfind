@@ -219,7 +219,7 @@ function Directory({ onAgent, onListProperty }) {
         </div>
       </div>
 
-      <div style={{ maxWidth: 720, margin: "0 auto 0", padding: "0 32px 72px" }}>
+      <div style={{ maxWidth: 720,margin: "16px auto 0", padding: "0 32px 72px" }}>
         <div style={{ background: "#fff", borderRadius: 18, border: `1px solid ${N.border}`, padding: "18px 20px", marginBottom: 20, boxShadow: "0 4px 20px rgba(10,22,40,0.07)" }}>
           <div style={{ fontSize: 11, fontWeight: 700, color: N.muted, letterSpacing: ".08em", textTransform: "uppercase", marginBottom: 12 }}>Filter by area</div>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
