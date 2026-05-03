@@ -88,9 +88,14 @@ function Navbar({ onHome, onListProperty }) {
           <span style={{ width: 7, height: 7, background: "#22C55E", borderRadius: "50%", display: "inline-block", animation: "dot 2s infinite" }} />
           Live · updated today
         </div>
-        <button onClick={onListProperty} className="btn btn-gold" style={{ padding: "9px 20px", fontSize: 13, animation: "glow 3s infinite" }}>
-          List property free
-        </button>
+        <div style={{ display: "flex", gap: 8 }}>
+  <a href="/register" style={{ background: "rgba(255,255,255,0.1)", color: "#fff", border: "1px solid rgba(255,255,255,0.2)", borderRadius: 9, padding: "8px 16px", fontSize: 13, fontWeight: 600, textDecoration: "none", fontFamily: "'Inter',sans-serif", display: "flex", alignItems: "center" }}>
+    Join as agent
+  </a>
+  <button onClick={onListProperty} className="btn btn-gold" style={{ padding: "9px 20px", fontSize: 13, animation: "glow 3s infinite" }}>
+    List property free
+  </button>
+</div>
       </div>
     </nav>
   );
